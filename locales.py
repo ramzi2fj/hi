@@ -12,7 +12,7 @@ locales = LocalesDict({
     'uk': locale_uk,
     'fa': locale_fa,
     'it': locale_it
-}, locale_en)
+}, locale_fa)
 
 # TOO_LONG_TITLE
 locale_en.too_long_title = 'Your message is too long'

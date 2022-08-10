@@ -8,8 +8,7 @@ from playhouse.db_url import connect
 
 from utils import get_formatted_username_or_id, PostMode
 
-db = connect(os.environ['postgres://vdcedezipvddzt:11251e773104dd1b942942bbbfe2d33137b1e14f7cd8093e32965e870bb598b1@ec2-63-32-248-14.eu-west-1.compute.amazonaws.com:5432/ddcih11vpmr9cj
-'])
+db = connect(os.environ['DATABASE_URL'])
 
 class BaseModel(Model):
     class Meta:

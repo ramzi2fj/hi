@@ -56,7 +56,7 @@ class QueryResults:
 class Keyboards:
     def info_keyboard(self):
         return types.InlineKeyboardMarkup(inline_keyboard=
-             [[types.InlineKeyboardButton('🇺🇸 English',    url='https://teletype.in/@uninstali/2SfWaeGFmlK')]])
+             [[types.InlineKeyboardButton('🇺🇸 English',    url='https://teletype.in/@troiler/2SfWaeGFmlK')]])
 
 class Media:
     def group_greeting_sticker_id(self):
